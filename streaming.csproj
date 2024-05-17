@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<!-- NuGet packages -->
+	<ItemGroup>
+		<PackageReference Include="Silk.NET.Core" Version="2.19.0" />
+		<PackageReference Include="Silk.NET.Input" Version="2.19.0" />
+		<PackageReference Include="Silk.NET.OpenGL" Version="2.19.0" />
+		<PackageReference Include="Silk.NET.Windowing" Version="2.19.0" />
+		<PackageReference Include="SkiaSharp" Version="2.88.8" />
+	</ItemGroup>
+	
+	<!-- Textures -->
+	<ItemGroup>
+		<None Update="ground64.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="ground128.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="ground256.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="ground512.png">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>
