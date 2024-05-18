@@ -29,3 +29,4 @@ TODO:
 
 References:
 - [songho's PBO article and demo](https://www.songho.ca/opengl/gl_pbo.html)
+- Ground texture by [Cethiel](https://opengameart.org/content/tileable-grass-textures-set-2)
