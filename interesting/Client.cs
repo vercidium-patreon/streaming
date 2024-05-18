@@ -132,7 +132,7 @@ public unsafe partial class Client
 
         
         // Load a texture from disk every frame. This will re-use recycled PBOs, textures and unmanaged memory
-        textures.Add(new(sharedContext, "ground"));
+        textures.Add(new(sharedContext, "ground512"));
 
 
         // Update all textures
